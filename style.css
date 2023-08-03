@@ -290,6 +290,7 @@ header {
 
 .submit-button {
     margin-top: 21px;
+    font-size: 18px;
     display: inline;
     align-self: flex-end;
     padding: 10px 48px;

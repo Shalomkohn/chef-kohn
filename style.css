@@ -299,6 +299,7 @@ header {
     background: #C8C8A9;
     cursor: pointer;
     color: #212427;
+    font-weight: 400;
 }
 
 @media (max-width: 600px) {

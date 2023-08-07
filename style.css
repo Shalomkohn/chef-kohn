@@ -363,11 +363,12 @@ footer {
 }
 
 footer .website-by {
-    color: #555;
+    color: #808080;
 }
 
 footer .website-by a {
     color: inherit;
+    vertical-align: middle;
 }
 
 @media (max-width: 800px) {

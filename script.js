@@ -1,10 +1,12 @@
 $('.slider').slick({
     dots: true,
     infinite: true,
-    speed: 300,
+    speed: 1200,
     slidesToShow: 3,
     arrows: false,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3500,
     responsive: [
         {
             breakpoint: 600,
@@ -22,3 +24,4 @@ $(".hero-cta").click(function () {
         scrollTop: $("#bookingSection").offset().top
     }, 800);
 });
+

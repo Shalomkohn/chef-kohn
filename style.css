@@ -412,6 +412,11 @@ footer .website-by a:hover {
 }
 
 @media (max-width: 800px) {
+
+    footer {
+        padding: 30px 35px 25px;
+    }
+
     footer .bottom {
         flex-direction: column;
         align-items: center;

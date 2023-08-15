@@ -365,11 +365,35 @@ footer {
     background-color: #E3D6D6;
     font-size: 18px;
     color: #333;
+    padding: 50px 70px 25px;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+.social {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #999;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.social img {
+    opacity: .85;
+    cursor: pointer;
+}
+
+.social img:hover {
+    opacity: .6;
+    transition: .3s;
+}
+
+footer .bottom {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    padding: 50px 70px 25px;
-    font-family: 'Merriweather', serif;
+    padding-top: 25px;
 }
 
 footer .website-by {
@@ -388,9 +412,12 @@ footer .website-by a:hover {
 }
 
 @media (max-width: 800px) {
-    footer {
+    footer .bottom {
         flex-direction: column;
-        padding: 40px 25px 25px;
         align-items: center;
+    }
+
+    footer .bottom .copyright {
+        text-align: center;
     }
 }

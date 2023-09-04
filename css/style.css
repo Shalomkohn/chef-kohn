@@ -359,6 +359,36 @@ header {
     }
 }
 
+/* Blog Into section */
+
+.blog-intro {
+    background-color: #222;
+    padding: 44px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.blog-intro img {
+    width: 130px;
+}
+
+.blog-intro a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 24px;
+    padding: 16px 55px;
+    background-color: #efefef;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.blog-intro a:hover {
+    opacity: .8;
+}
+
 /* Footer */
 
 footer {

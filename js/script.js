@@ -19,9 +19,17 @@ $('.slider').slick({
     ]
 });
 
-$(".hero-cta").click(function () {
+function scrollToBooking() {
     $('html, body').animate({
         scrollTop: $("#bookingSection").offset().top
     }, 800);
+}
+
+$(".contact-link").click(() => scrollToBooking());
+
+$(window).on("load", function () {
+    if (window.location.hash == '#contactUsHere') {
+        scrollToBooking()
+    }
 });
 

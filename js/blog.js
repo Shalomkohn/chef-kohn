@@ -10,7 +10,6 @@ function fetchAndDisplayAllPosts() {
     // Build the URL for the Blogger API request
     var url = 'https://www.googleapis.com/blogger/v3/blogs/' + blogId + '/posts?key=' + apiKey;
 
-    var domainName = 'http://127.0.0.1:5500';
 
     // Make the API request using the fetch() method
     fetch(url)
@@ -42,7 +41,7 @@ function fetchAndDisplayAllPosts() {
                     postElement.innerHTML = '<img src="' + src + '" alt="Post image">';
                 }
 
-                postElement.innerHTML += `<div class="post-date">Published ${new Date(post.published).toLocaleDateString()}</div>` + `<h2 class="post-title">${post.title}</h2>` + `<a class="read" href="${domainName}/post.html?id=${post.id}">Read More</a>`;
+                postElement.innerHTML += `<div class="post-date">Published ${new Date(post.published).toLocaleDateString()}</div>` + `<h2 class="post-title">${post.title}</h2>` + `<a class="read" href="/post.html?id=${post.id}">Read More</a>`;
 
                 // Add the post to the page
                 document.getElementById('postsContainer').appendChild(postElement);

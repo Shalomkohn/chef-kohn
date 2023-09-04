@@ -31,7 +31,7 @@ function fetchAndDisplayPost() {
 
             postElement.innerHTML += post.content;
 
-            postElement.innerHTML += '<div class="post-bottom"><img width="150" src="./images/logo-white-background.jpg" alt="Chef Kohn logo" class="logo"><p>If you were inspired by the ideas shared in this article and desire an unforgettable dining experience, consider Chef Kohns private chef services. With a passion for crafting personalized culinary moments and a commitment to using the finest ingredients, We’re here to turn your dining dreams into reality.</p><p>To discuss your vision, inquire about availability, or learn more, please <a href="/#contactUsHere">Contact us here</a>. Lets create lasting culinary memories together. Thank you for considering Chef Kohn for your next extraordinary meal.</p></div>'
+            postElement.innerHTML += '<div class="post-bottom"><img width="150" src="./images/logo-white-background.jpg" alt="Chef Kohn logo" class="logo"><p>If you were inspired by the ideas shared in this article and want an unforgettable dining experience, consider Chef Kohns kosher private chef services. With a passion for crafting deliciously personalized moments and a commitment to using the finest kosher ingredients, We’re here to turn your dining dreams into reality.</p><p>To discuss your vision, inquire about availability, or learn more, please <a href="/#contactUsHere">Contact us here</a>. Lets create lasting memories together. Thank you for considering Chef Kohn for your next extraordinary meal.</p></div>'
         });
 }
 

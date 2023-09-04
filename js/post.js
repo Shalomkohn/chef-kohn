@@ -12,9 +12,9 @@ function fetchAndDisplayPost() {
 
     var postId = getParameterByName('id');
 
-    var apiKey = '';
+    var apiKey = vars.BLOGGER_API_KEY;
 
-    var blogId = '';
+    var blogId = vars.BLOGGER_BLOG_ID;
 
     var url = `https://www.googleapis.com/blogger/v3/blogs/${blogId}/posts/${postId}?key=${apiKey}`
 

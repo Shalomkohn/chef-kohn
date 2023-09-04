@@ -2,10 +2,10 @@
 
 function fetchAndDisplayAllPosts() {
     // Replace 'YOUR_API_KEY' with your actual API key
-    var apiKey = process.env.BLOGGER_API_KEY;
+    var apiKey = vars.BLOGGER_API_KEY;
 
     // Replace 'YOUR_BLOG_ID' with the ID of your actual Blogger blog
-    var blogId = process.env.BLOGGER_BLOG_ID;
+    var blogId = vars.BLOGGER_BLOG_ID;
 
     // Build the URL for the Blogger API request
     var url = 'https://www.googleapis.com/blogger/v3/blogs/' + blogId + '/posts?key=' + apiKey;

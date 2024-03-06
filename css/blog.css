@@ -157,7 +157,7 @@ header {
 
 .post-bottom p {
     font-size: 16px;
-    color: #5a5a5a;
+    color: #6a6a6a;
 }
 
 @media (max-width: 600px) {
@@ -183,6 +183,7 @@ header {
     }
 
     .post-bottom p {
-        font-size: 16px;
+        font-size: 16px !important;
+
     }
 }

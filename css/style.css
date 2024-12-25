@@ -328,7 +328,20 @@ header {
     background-color: #3E3838;
     color: #efefef;
     padding: 90px 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
 }
+.about-section .content {
+    padding-left: 100px;
+}
+
+.about-section img {
+    width: 300px;
+    border-radius: 5px;
+}
+
 
 .about-section h2 {
     font-family: 'Merriweather', serif;

@@ -338,7 +338,7 @@ header {
 }
 
 .about-section img {
-    width: 300px;
+    max-width: 300px;
     border-radius: 5px;
 }
 
@@ -365,6 +365,12 @@ header {
 @media (max-width: 600px) {
     .about-section {
         padding-top: 40px;
+        flex-direction: column;
+    }
+
+    .about-section .content {
+        padding-left: 0px;
+        padding-bottom: 50px;
     }
 
     .about-section h2 {
